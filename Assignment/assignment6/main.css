@@ -1,0 +1,38 @@
+body {
+    background-image: url(Wallpaper.jpeg);
+}
+
+#myRegister {
+    color: palevioletred;
+    background-color: white;
+    font-family: Cooper; 
+}
+
+#myLogin {
+    color: palevioletred;
+    background-color: white;
+    font-family: Cooper; 
+}
+
+#errormsg {
+    color:rgb(252, 57, 57);
+    font-family: Sarabun; 
+    font-weight: bold;
+}
+
+input {
+    color: palevioletred;
+    font-family: Cooper; 
+    border: 1px solid palevioletred;
+}
+
+input[type="submit"], input[type="reset"] {
+    color: white;
+    background-color: palevioletred;
+    font-family: Cooper; 
+    border: 1px solid palevioletred;
+}
+
+input[type="radio"] {
+    accent-color: palevioletred; 
+}

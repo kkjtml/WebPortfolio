@@ -1,0 +1,207 @@
+a:link {
+	color: #4400ff;
+}
+
+a:hover {
+	color: #FF00FF;
+}
+
+h1,
+h2 {
+	background-color: rgb(248, 39, 39);
+	color: rgb(245, 245, 100);
+	font-family: Cooper;
+}
+
+h3 {
+	color: rgb(248, 39, 39);
+	font-family: Cooper;
+	text-decoration: underline;
+}
+
+ul {
+	font-size: 100%;
+	color: rgb(248, 39, 39);
+	font-family: Cooper;
+}
+
+img {
+	width: 100%;
+}
+
+div {
+	text-align: center;
+}
+
+.left_page {
+	text-align: left;
+}
+
+span {
+	font-size: 100%;
+	color: rgb(248, 39, 39);
+	background-color: white;
+	font-family: Cooper;
+}
+
+#pizzaIngredients_pic {
+	border: 3px solid rgb(248, 39, 39);
+	width: 25%;
+}
+
+.flex_container {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 100%;
+	justify-content: center;
+}
+
+.flex_container>div {
+	border: 3px solid rgb(248, 39, 39);
+	width: 20%;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 35px;
+	background-color: white;
+}
+
+.flex_container2 {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 100%;
+	justify-content: center;
+}
+
+.flex_container2>div {
+	border: 3px solid rgb(248, 39, 39);
+	width: 45%;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 10% auto 10%;
+	grid-gap: 10px;
+}
+
+.grid-container>div {
+	border: 1px solid black;
+	font-size: 20px;
+	text-align: center;
+	background-color: white;
+}
+
+#header {
+	grid-column: 1 / span 3;
+	background-image: url(pic/Pizza_Wallpaper.jpeg);
+}
+
+#left {
+	grid-column: 1 / span 1;
+	background-image: url(pic/pizza-dip-8.jpeg);
+}
+
+#main {
+	grid-column: 2 / span 1;
+	background-image: url(pic/Pizza_Wallpaper.jpeg);
+}
+
+#right {
+	grid-column: 3 / span 1;
+	background-image: url(pic/pizza-dip-8.jpeg);
+}
+
+#main2 {
+	grid-column: 1 / span 3;
+	background-image: url(pic/Pizza_Wallpaper.jpeg);
+}
+
+#footer {
+	grid-column: 1 / span 3;
+	background-image: url(pic/Pizza_Wallpaper.jpeg);
+}
+
+@media only screen and (max-width: 768px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-gap: 10px;
+	}
+
+	#header {
+		grid-column: 1 / span 2;
+		background-image: url(pic/Pizza_Wallpaper.jpeg);
+	}
+
+	#left {
+		grid-column: 1 / span 2;
+		background-image: url(pic/pizza-dip-8.jpeg);
+		height: 100px;
+	}
+
+	#main {
+		grid-column: 1 / span 2;
+		background-image: url(pic/Pizza_Wallpaper.jpeg);
+	}
+
+	#right {
+		grid-column: 1 / span 2;
+		background-image: url(pic/pizza-dip-8.jpeg);
+		height: 100px;
+	}
+
+	#main2 {
+		grid-column: 1 / span 2;
+		background-image: url(pic/Pizza_Wallpaper.jpeg);
+	}
+
+	#footer {
+		grid-column: 1 / span 2;
+		background-image: url(pic/Pizza_Wallpaper.jpeg);
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto;
+		grid-gap: 10px;
+	}
+
+	#header {
+		grid-column: 1 / span 1;
+		background-image: url(pic/Pizza_Wallpaper.jpeg);
+	}
+
+	#left {
+		grid-column: 1 / span 1;
+		background-image: url(pic/pizza-dip-8.jpeg);
+		height: 100px;
+	}
+
+	#main {
+		grid-column: 1 / span 1;
+		background-image: url(pic/Pizza_Wallpaper.jpeg);
+	}
+
+	#right {
+		grid-column: 1 / span 1;
+		background-image: url(pic/pizza-dip-8.jpeg);
+		height: 100px;
+	}
+
+	#main2 {
+		grid-column: 1 / span 1;
+		background-image: url(pic/Pizza_Wallpaper.jpeg);
+	}
+
+	#footer {
+		grid-column: 1 / span 1;
+		background-image: url(pic/Pizza_Wallpaper.jpeg);
+	}
+}

@@ -1,0 +1,67 @@
+a:link{
+	color: #FF0000; 
+}  
+
+a:hover{ 
+	color: #FF00FF; 
+} 
+
+body {
+    background-color: white;
+}
+
+h1 {
+    background-color: red;
+    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+h2 {
+    background-color: yellow;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+ul {
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+div {
+    background-image: url(pic/HeartWallpaper.jpeg);
+    text-align: center;
+}
+
+span {
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+img {
+    width: 100%;
+}
+
+.left_page {
+    text-align: left;
+}
+
+.div_display {
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 5px  dotted red;
+    width: 200px;
+    display: inline-block; 
+}
+
+.flex_container{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap; 
+}
+
+#Cinnamon_pic {
+    width: 15%;
+    height: 15%;
+    border: 5px dotted red;
+}
